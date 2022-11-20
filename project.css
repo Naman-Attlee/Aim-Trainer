@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
+
+body{
+  background-image: url("Gaming-PC-Wallpaper-HD.webp");
+  /* background-color: black; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding:30px;
+  color: white;
+  /* margin: 30px; */
+}
+
+#image_logo{
+  /* display: inline-block; */
+  margin:auto;
+  height:7%;
+  width:35%;
+  left: 10%;
+}
+
+#image_logo img{
+  height:100%;
+  width:24%;
+}
+#image_logo h3{
+  display: inline-block;
+  vertical-align:59px;
+  font-size: 60px;
+  text-decoration-thickness: 50px;
+}
+
+#buttons{
+  display:flex;
+  justify-content: space-around;
+}
+
+.difficulty{
+  width:200px;
+  height: 120px;
+  display:inline-block;
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+}
+
+.difficulty:hover{
+  box-shadow:0px 0px 2px 3px white;
+}
+
+.difficulty span{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+}
+
+#easy{
+  background-color: rgb(75, 186, 75);
+  border:3px solid green;
+  border-radius: 12px;
+}
+#medium{
+  background-color: rgb(225, 210, 69);
+  border:3px solid orangered;
+  color: black;
+  border-radius: 12px;
+}
+#hard{
+  background-color: rgb(252, 0, 0);
+  border:3px solid rgb(207, 49, 49);
+  border-radius: 12px;
+}
